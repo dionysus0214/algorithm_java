@@ -129,7 +129,7 @@ public class BinTree<K, V> {
 			while(left.right != null) {
 				parent = left;
 				left = left.right;
-				isLeftChild =false;
+				isLeftChild = false;
 			}
 			p.key = left.key;
 			p.data = left.data;
